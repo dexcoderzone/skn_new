@@ -27,5 +27,5 @@ export async function sendMail(subject, toEmail, otpText) {
       }
     });
   });
-  console.log(process.env.NODEMAILER_EMAIL);
+  // console.log(process.env.NODEMAILER_EMAIL);
 }
