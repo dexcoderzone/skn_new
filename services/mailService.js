@@ -1,4 +1,5 @@
 var nodemailer = require("nodemailer");
+require('dotenv').config()
 //-----------------------------------------------------------------------------
 export async function sendMail(subject, toEmail, otpText) {
   var transporter = nodemailer.createTransport({
