@@ -432,7 +432,7 @@ export const CircularText = ({ className, ...rest }) => (
     width="496"
     height="496"
     viewBox="0 0 496 496"
-    src="/images//circular-img.png"
+    src="/images//circular-img1.png"
     alt='specialization'
     className={`w-full h-auto ${className}`}
     {...rest}

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>SKN Analytics - My profile page</title>
         <meta
           name="description"
           content="Explore SKN Analytics portfolio and 
@@ -33,7 +33,7 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
+                alt="SKN Analytics"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -82,7 +82,7 @@ export default function Home() {
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
-            alt="Codebucks"
+            alt="SKN Analytics"
           />
         </div>
       </article>
